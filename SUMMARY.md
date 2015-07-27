@@ -97,4 +97,5 @@
 
 * [Chapter 5](review/chapter_5/Call stack introspection.md)
     * [Section 1](review/chapter_5/5.1-George's logging problem.md)
+    * [Section 2](review/chapter_5/5.2-Performing call stack introspection.md)
 
