@@ -95,5 +95,6 @@
     * [Section 9](review/chapter_4/9-Pitfalls of using Proxy.md)
     * [Section 10](review/chapter_4/10-Summary.md)
 
-
+* [Chapter 5](review/chapter_5/Call stack introspection.md)
+    * [Section 1](review/chapter_5/5.1-George's logging problem.md)
 
