@@ -1,4 +1,1 @@
 # Chapter 4
-
-The dictionary [68] tells us that a proxy is an “agency, function, or office of a dep- uty who acts as a substitute for another.” When this idea is applied to object-ori- ented programming, the result is an object, a proxy, that supports the interface of another object, its target, so that the proxy can substitute for the target for all prac- tical purposes.
-The keys to this arrangement are implementation and delegation. The proxy implements the same interface as the target so that it can be used in exactly the same way. The proxy delegates some or all of the calls that it receives to its target and thus acts as either an intermediary or a substitute. In its role as an intermedi- ary, the proxy may add functionality either before or after the method is for- warded to the target. This gives the reflective programmer the capability to add behavior to objects. This chapter discusses this and other uses of proxies.

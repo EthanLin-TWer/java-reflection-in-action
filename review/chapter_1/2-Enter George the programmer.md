@@ -1,1 +1,1 @@
-# Section 2
+# 1.2 Enter George the programmer
