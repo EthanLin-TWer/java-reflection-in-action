@@ -1,1 +1,1 @@
-# Section 7
+# Stubbing interfaces for unit testing

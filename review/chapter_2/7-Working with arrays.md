@@ -1,1 +1,1 @@
-# Section 7
+# Working with arrays

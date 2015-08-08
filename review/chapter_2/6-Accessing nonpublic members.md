@@ -1,1 +1,1 @@
-# Section 6
+# Accessing nonpublic members

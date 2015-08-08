@@ -1,1 +1,1 @@
-# Section 6
+# George's serialization, limitations

@@ -1,1 +1,1 @@
-# Section 6
+# Chaining proxies

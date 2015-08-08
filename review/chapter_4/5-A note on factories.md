@@ -1,1 +1,1 @@
-# Section 5
+# A note on factories
