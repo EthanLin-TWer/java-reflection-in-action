@@ -50,7 +50,7 @@
         * [Basics of forName](review/chapter_3/2.1-Basics of forName.md)
         * [Getting array classes](review/chapter_3/2.2-Getting array classes.md)
         * [Primitives and forName](review/chapter_3/2.3-Primitives and forName.md)
-    * [Constructing objects reflectively](review/chapter_3/3.1-Constructing objects reflectively.md)
+	* [Constructing objects reflectively](review/chapter_3/3.1-Constructing objects reflectively.md)
         * [Reflective construction basics](review/chapter_3/3.1-Reflective construction basics.md)
         * [Using constructor objects](review/chapter_3/3.2-Using constructor objects.md)
         * [Constructing arrays reflectively](review/chapter_3/3.3-Constructing arrays reflectively.md)
@@ -69,7 +69,7 @@
         * [Performance](review/chapter_3/6.5-Performance.md)
     * [Summary](review/chapter_3/7-Summary.md)
 
-* [Using Java's dynamic proxy](review/chapter_4/Using Java's dynamic proxy.md)
+* [Using Java's dynamic proxy](review/chapter_4/0-Using Java's dynamic proxy.md)
     * [Working with proxies](review/chapter_4/1-Working with proxies.md)
     * [George's tracing problem](review/chapter_4/2-George's tracing problem.md)
     * [Exploring Proxy](review/chapter_4/3-Exploring Proxy.md)
@@ -89,6 +89,6 @@
     * [Pitfalls of using Proxy](review/chapter_4/9-Pitfalls of using Proxy.md)
     * [Summary](review/chapter_4/10-Summary.md)
 
-* [Call stack introspection](review/chapter_5/Call stack introspection.md)
+* [Call stack introspection](review/chapter_5/0-Call stack introspection.md)
     * [George's logging problem](review/chapter_5/5.1-George's logging problem.md)
     * [Performing all stack introspection](review/chapter_5/5.2-Performing call stack introspection.md)
