@@ -1,0 +1,1 @@
+# Understanding Amdahl's law
