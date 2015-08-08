@@ -1,1 +1,1 @@
-# Section 6
+# Understanding method objects

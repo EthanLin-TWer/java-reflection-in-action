@@ -1,1 +1,1 @@
-# Section 5
+# Representing types with class objects

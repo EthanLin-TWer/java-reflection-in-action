@@ -1,1 +1,1 @@
-# 1.1 Reflection's value proposition
+# Reflection's value proposition

@@ -1,1 +1,1 @@
-# Section 3
+# Examining running programs

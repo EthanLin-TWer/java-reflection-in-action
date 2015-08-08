@@ -1,1 +1,1 @@
-# Section 8
+# Navigating the inheritance hierarchy

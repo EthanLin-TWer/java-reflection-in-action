@@ -1,1 +1,1 @@
-# Chapter 1. A Few Basics
+# A Few Basics
