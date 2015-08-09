@@ -135,7 +135,7 @@
 * [Design patterns](review/chapter_8/0-Design patterns.md)
     * [Singleton](review/chapter_8/1-Singleton.md)
     * [Decorator class-to-class transformations](review/chapter_8/2-Decorator class-to-class transformations.md)
-    * [Proxy(again)](review/chapter_8/3-Proxy(again).md)
+    * [Proxy(again)](review/chapter_8/3-Proxy.md)
     * [Another composition feature](review/chapter_8/4-Another composition feature.md)
     * [Problematic issues in writing class-to-class transformations](review/chapter_8/5-Problematic issues in writing class-to-class transformations.md)
     * [Summary](review/chapter_8/6-Summary.md)
