@@ -1,8 +1,8 @@
 ### Updated time: 02:29:33 10 Aug, 2015.
- 1. Definitions
+ 1. Definitions  
  All definitions used in this .md are restricted to this translation project and are defined to help clafifying concepts or entities we're going to talk about in the following writing.
-  * Paragraph: Either a Chinese translated nature paragraph or a English original text nature paragraph here in where a 'nature paragraph', is defined as a block of text combined with sentences or/and words and in the mean time a way we, human beings, instead of a computer or other electronic devices, use to communicate, write or express.
-  * Block: A translated paragraph and its' corresponding paragraph together are combined as a block.
+  * A Paragraph: Either a Chinese translated nature paragraph or a English original text nature paragraph here in where a 'nature paragraph', is defined as a block of text combined with sentences or/and words and in the mean time a way we, human beings, instead of a computer or other electronic devices, use to communicate, write or express.
+  * A Block: A translated paragraph and its' corresponding paragraph together are combined as a block.
  2. Headers
   * Chapter headers(i.e. files in /chapter_?/0-xxx.md) are sized to header1.
   * Section headers are sized to header2.
