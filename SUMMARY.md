@@ -1,4 +1,4 @@
-# This is the chapter organization of the book.
+### Content
 
 * [A Few Basics](review/chapter_1/0-A few basics.md)
     * [Reflection's value proposition](review/chapter_1/1-Reflection's value proposition.md)
