@@ -69,7 +69,7 @@
         * [Performance](review/chapter_3/6.5-Performance.md)
     * [Summary](review/chapter_3/7-Summary.md)
 
-* [Using Java's dynamic proxy](review/chapter_4/0-Using Java's dynamic proxy.md)
+* [使用Java的动态代理](review/chapter_4/0-Using Java's dynamic proxy.md)
     * [Working with proxies](review/chapter_4/1-Working with proxies.md)
     * [George's tracing problem](review/chapter_4/2-George's tracing problem.md)
     * [Exploring Proxy](review/chapter_4/3-Exploring Proxy.md)
