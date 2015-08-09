@@ -1,5 +1,5 @@
-# Using Java's dynamic proxy
-# 使用Java的动态代理
+## Using Java's dynamic proxy  
+## 使用Java的动态代理
 
 
 The dictionary [68] tells us that a proxy is an “agency, function, or office of a deputy who acts as a substitute for another.” When this idea is applied to object-oriented programming, the result is an object, a proxy, that supports the interface of another object, its target, so that the proxy can substitute for the target for all practical purposes.  
