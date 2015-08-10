@@ -9,6 +9,9 @@ Java反射，本质上是Java程序能够对自身程序要素（类名、方法
 #### 翻译进度
 本书目前翻译了第1章，第2章翻译了一部分，不过仍需做一次小校正才能发出。目前主要进行的是第4章的翻译工作，会陆续发出。
 
+#### 本书阅读
+[Gitbook上可获得更好的阅读体验，请戳这里](http://linesh.gitbooks.io/java-reflection-in-action/content/)
+
 #### 本书目录
 [请戳这里：Contents](./SUMMARY.md)
 
