@@ -7,7 +7,7 @@ The sequence diagram in figure 4.1 depicts the most common situation where the p
 
 
 The Java reflection API contains a dynamic proxy-creation facility, ```java.lang.reflect.Proxy```. This class is part of Java reflection because ```Proxy``` is Java’s only way of approximating method invocation intercession. Let’s dissect the previous phrase. Intercession is any reflective ability that modifies the behavior of a program by directly taking control of that behavior. Method invocation interces- sion is the ability to intercept method calls. The intercepting code can determine the behavior that results from the method call.  
-Java的反射API包含了对动态代理创建的支持：```java.lang.reflect.Proxy```。这个类是Java反射的一部分，因为```Proxy```是Java近似实现方法调用拦截的唯一方法。(because Proxy is Java’s only way of approximating method invocation intercession.)我们来斟酌一下这个词语(Let’s dissect the previous phrase.)。Intercession is any reflective ability that modifies the behavior of a program by directly taking control of that behavior.方法调用拦截指的即是可以拦截方法调用的能力。拦截代码can determine the behavior that results from the method call.
+Java的反射API包含了对动态代理创建的支持：java.lang.reflect.Proxy。这个类是Java反射的一部分，因为Proxy是Java近似实现方法调用拦截的唯一方法。(because Proxy is Java’s only way of approximating method invocation intercession.)我们来斟酌一下这个词语(Let’s dissect the previous phrase.)。Intercession is any reflective ability that modifies the behavior of a program by directly taking control of that behavior.方法调用拦截指的即是可以拦截方法调用的能力。拦截代码can determine the behavior that results from the method call.
 
 
 
@@ -43,11 +43,11 @@ There is also a compelling argument to present to management for such separation
 
 
 
-This additional maintenance is a serious enough concern to win management over. Isolating properties into reusable components and composing them later, as can be done with ```Proxy```, yields a much smaller library of size n+p. This represents an enormous savings to WCI or any other company. This effect may not be as pro- nounced in other organizations, but it does exist.  
-这些额外的维护代价已经足够严重，值得我们考虑来管理它们。将每个属性隔离成为一些可复用的组件，在使用的时候再把它们组合起来——这是使用```Proxy```能够做到的——是一种不错的方案，可以把类库中类的数量降低到n+p。这对WCI或其他任何公司来说都节省了一笔巨大的开销。对于有些公司来说，这笔开销可能没有那么明显，但它是确实存在的。
+This additional maintenance is a serious enough concern to win management over. Isolating properties into reusable components and composing them later, as can be done with Proxy, yields a much smaller library of size n+p. This represents an enormous savings to WCI or any other company. This effect may not be as pronounced in other organizations, but it does exist.  
+这些额外的维护代价已经足够严重，值得我们考虑来管理它们。将每个属性隔离成为一些可复用的组件，在使用的时候再把它们组合起来——这是使用Proxy能够做到的——是一种不错的方案，可以把类库中类的数量降低到n+p。这对WCI或其他任何公司来说都节省了一笔巨大的开销。对于有些公司来说，这笔开销可能没有那么明显，但它是确实存在的。
 
 
 
 
-Now that we have discussed the abstract benefits of ```Proxy```, let’s pay a visit to George and look at a simple example.  
-我们已经抽象地讨论了使用```Proxy```的好处，现在是时候来跟着George一起看个简单的例子了。
+Now that we have discussed the abstract benefits of Proxy, let’s pay a visit to George and look at a simple example.  
+我们已经抽象地讨论了使用Proxy的好处，现在是时候来跟着George一起看个简单的例子了。
