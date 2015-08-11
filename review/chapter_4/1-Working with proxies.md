@@ -6,7 +6,7 @@ The sequence diagram in figure 4.1 depicts the most common situation where the p
 
 
 
-The Java reflection API contains a dynamic proxy-creation facility, ```java.lang.reflect.Proxy```. This class is part of Java reflection because Proxy is Java’s only way of approximating method invocation intercession. Let’s dissect the previous phrase. Intercession is any reflective ability that modifies the behavior of a program by directly taking control of that behavior. Method invocation interces- sion is the ability to intercept method calls. The intercepting code can determine the behavior that results from the method call.  
+The Java reflection API contains a dynamic proxy-creation facility, ```java.lang.reflect.Proxy```. This class is part of Java reflection because ```Proxy``` is Java’s only way of approximating method invocation intercession. Let’s dissect the previous phrase. Intercession is any reflective ability that modifies the behavior of a program by directly taking control of that behavior. Method invocation interces- sion is the ability to intercept method calls. The intercepting code can determine the behavior that results from the method call.  
 Java的反射API包含了对动态代理创建的支持：java.lang.reflect.Proxy。这个类是Java反射的一部分，因为Proxy是Java近似实现方法调用拦截的唯一方法。(because Proxy is Java’s only way of approximating method invocation intercession.)我们来斟酌一下这个词语(Let’s dissect the previous phrase.)。Intercession is any reflective ability that modifies the behavior of a program by directly taking control of that behavior.方法调用拦截指的即是可以拦截方法调用的能力。拦截代码can determine the behavior that results from the method call.
 
 
@@ -38,7 +38,7 @@ Developers get many key benefits from separating property-implementing code. One
 
 
 There is also a compelling argument to present to management for such sepa- ration. Consider George’s employer, Wildlife Components, which sells a class library of n classes. There are p properties that they wish their classes to have in all combinations. Both the number of classes and the number of properties grow as the company evolves to meet the increasing business demands. WCI faces the possibility of having to support a class library of at least n2p classes if they must write new classes to implement and combine properties in their original classes.  
-There is also a compelling argument to present to management for such separation. George的雇主Wildlife Components有一个产品，是一个包含了n个类的类库。同时还有p种属性可以被类所拥有，属性间还可以组合。随着公司业务需求的拓展，类和属性的数量都会随之增长。如果要为每种属性的组合重新编写一个新的类，那么WCI可能面临必须为类库支持n2p个类的局面。
+There is also a compelling argument to present to management for such separation. George的雇主Wildlife Components有一个产品，是一个包含了n个类的类库。同时还有p种属性可以被类所拥有，属性间还可以组合。随着公司业务需求的拓展，类和属性的数量都会随之增长。如果要为每种属性的组合重新编写一个新的类，那么WCI可能面临必须为类库支持$$n2p$$个类的局面。
 
 
 
