@@ -6,6 +6,10 @@ The sequence diagram in figure 4.1 depicts the most common situation where the p
 
 
 
+[图4-1 一种常见的代理应用场景的时序图。代理将接受到的方法推送给目标对象，可能在方法调用的前/后做一些处理，也可能不做](./reference/figures/Figure4.1-Sequence diagram for the typical use of a proxy.png)
+
+
+
 The Java reflection API contains a dynamic proxy-creation facility, ```java.lang.reflect.Proxy```. This class is part of Java reflection because ```Proxy``` is Java’s only way of approximating method invocation intercession. Let’s dissect the previous phrase. Intercession is any reflective ability that modifies the behavior of a program by directly taking control of that behavior. Method invocation interces- sion is the ability to intercept method calls. The intercepting code can determine the behavior that results from the method call.  
 Java的反射API包含了对动态代理创建的支持：java.lang.reflect.Proxy。这个类是Java反射的一部分，因为Proxy是Java近似实现方法调用拦截的唯一方法。(because Proxy is Java’s only way of approximating method invocation intercession.)我们来斟酌一下这个词语(Let’s dissect the previous phrase.)。Intercession is any reflective ability that modifies the behavior of a program by directly taking control of that behavior.方法调用拦截指的即是可以拦截方法调用的能力。拦截代码can determine the behavior that results from the method call.
 
