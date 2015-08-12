@@ -1,8 +1,9 @@
 ## Working with proxies  
 ## 使用代理
 
- >  The sequence diagram in figure 4.1 depicts the most common situation where the proxy instance receives a method call and forwards it to the target. Even this arrangement has a use; it hides the location of the target from the client. If you have used remote method invocation, you are familiar with proxies that are local substitutes for remote objects.
-    图4-1所示的顺序图描述了代理最常用的一个场景：代理实例接收到一个方法调用，并简单地委托给目标对象。即便简单，这种设计也是有其作用的：它向客户端隐藏了真正的目标对象。如果你使用过远程方法调用（RMI），那么你对用于替换远端对象的本地代理应该不陌生。
+> The sequence diagram in figure 4.1 depicts the most common situation where the proxy instance receives a method call and forwards it to the target. Even this arrangement has a use; it hides the location of the target from the client. If you have used remote method invocation, you are familiar with proxies that are local substitutes for remote objects.      
+
+图4-1所示的顺序图描述了代理最常用的一个场景：代理实例接收到一个方法调用，并简单地委托给目标对象。即便简单，这种设计也是有其作用的：它向客户端隐藏了真正的目标对象。如果你使用过远程方法调用（RMI），那么你对用于替换远端对象的本地代理应该不陌生。
 
 
 
