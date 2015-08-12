@@ -17,7 +17,6 @@ Java的反射API包含了对动态代理创建的支持：```java.lang.reflect.P
 
 
 
-
  > We say approximating because Java does not support reflective facilities for inter- ceding on method calls. Therefore, we must use proxies as an approximation. Referring to figure 4.1, we see that proxies also allow the ability to pre- and post- process method calls. Let’s examine the benefits achieved from doing this.
  
 我们称其为“近似实现”，是因为Java反射并不支持intercede方法调用。因此，我们必须使用代理来实现这个目标。再看一下图4-1，可以看到代理能够对方法调用进行前处理和后处理。我们来看一下使用代理的好处。
@@ -54,11 +53,9 @@ There is also a compelling argument to present to management for such separation
 
 
 
-
 > This additional maintenance is a serious enough concern to win management over. Isolating properties into reusable components and composing them later, as can be done with Proxy, yields a much smaller library of size n+p. This represents an enormous savings to WCI or any other company. This effect may not be as pronounced in other organizations, but it does exist.  
 
 这些额外的维护代价已经足够严重，值得我们考虑来管理它们。将每个属性隔离成为一些可复用的组件，在使用的时候再把它们组合起来——这是使用Proxy能够做到的——是一种不错的方案，可以把类库中类的数量降低到n+p。这对WCI或其他任何公司来说都节省了一笔巨大的开销。对于有些公司来说，这笔开销可能没有那么明显，但它是确实存在的。
-
 
 
 
