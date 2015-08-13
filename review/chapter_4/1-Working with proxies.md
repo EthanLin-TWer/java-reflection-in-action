@@ -7,7 +7,8 @@
 
 
 
-![图4-1 一种常见的代理应用场景的时序图。代理将接受到的方法推送给目标对象，可能在方法调用的前/后做一些处理，也可能不做](../../reference/figures/Figure4.1-Sequence diagram for the typical use of a proxy.png)
+![图4-1 一种常见的代理应用场景的时序图](../../reference/figures/Figure4.1-Sequence diagram for the typical use of a proxy.png)
+图4-1 一种常见的代理应用场景的时序图。代理将接受到的方法推送给目标对象，可能在方法调用的前/后做一些处理，也可能不做
 
 
 
