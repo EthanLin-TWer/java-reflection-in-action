@@ -8,13 +8,13 @@
 ![图4-1 一种常见的代理应用场景的时序图](../../reference/figures/Figure4.1-Sequence diagram for the typical use of a proxy.png)
 图4-1 一种常见的代理应用场景的时序图。代理将接受到的方法推送给目标对象，可能在方法调用的前/后做一些处理，也可能不做
 
- > The Java reflection API contains a dynamic proxy-creation facility, ```java.lang.reflect.Proxy```. This class is part of Java reflection because ```Proxy``` is Java’s only way of approximating method invocation intercession. Let’s dissect the previous phrase. Intercession is any reflective ability that modifies the behavior of a program by directly taking control of that behavior. Method invocation interces- sion is the ability to intercept method calls. The intercepting code can determine the behavior that results from the method call.  
+ > The Java reflection API contains a dynamic proxy-creation facility, `java.lang.reflect.Proxy`, This class is part of Java reflection because `Proxy` is Java’s only way of approximating method invocation intercession. Let’s dissect the previous phrase. Intercession is any reflective ability that modifies the behavior of a program by directly taking control of that behavior. Method invocation intercession is the ability to intercept method calls. The intercepting code can determine the behavior that results from the method call.  
 
-Java的反射API包含了对动态代理创建的支持：```java.lang.reflect.Proxy```。这个类是Java反射的一部分，因为```Proxy```是Java近似实现方法调用拦截的唯一方法。(because Proxy is Java’s only way of approximating method invocation intercession.)我们来斟酌一下这个词语(Let’s dissect the previous phrase.)。Intercession is any reflective ability that modifies the behavior of a program by directly taking control of that behavior.方法调用拦截指的即是可以拦截方法调用的能力。拦截代码can determine the behavior that results from the method call.
+Java的反射API包含了对动态代理创建的支持：`java.lang.reflect.Proxy`。这个类是Java反射的一部分，因为`Proxy`是Java下近似实现方法调用拦截的唯一方法。进一步讲，任何代码，只要它具备直接控制某段程序执行并修改其行为的能力，我们就认为它具备拦截能力。而方法调用拦截指的就是可以拦截方法调用的能力。拦截代码can determine the behavior that results from the method call.
 
- > We say approximating because Java does not support reflective facilities for inter- ceding on method calls. Therefore, we must use proxies as an approximation. Referring to figure 4.1, we see that proxies also allow the ability to pre- and post- process method calls. Let’s examine the benefits achieved from doing this.
+ > We say approximating because Java does not support reflective facilities for interceding on method calls. Therefore, we must use proxies as an approximation. Referring to figure 4.1, we see that proxies also allow the ability to pre- and post- process method calls. Let’s examine the benefits achieved from doing this.
  
-我们称其为“近似实现”，是因为Java反射并不支持intercede方法调用。因此，我们必须使用代理来实现这个目标。再看一下图4-1，可以看到代理能够对方法调用进行前处理和后处理。我们来看一下使用代理的好处。
+我们称其为“近似实现”，是因为Java反射本身并不支持直接打断并接管方法调用的特性。这样要实现这个特性，我们就必须使用代理来模拟这个过程。回顾图4-1，我们可以看到代理能够在方法调用之前和之后做一些处理。接下来，我们来检验一下使用代理有什么好处。
 
 >  Programmers commonly discuss properties of classes. For example, a class that records its method calls is often referred to as a tracing class. A class that ensures that a failed operation does not leave an object in an intermediate state is often referred to as an atomic class.  
 
