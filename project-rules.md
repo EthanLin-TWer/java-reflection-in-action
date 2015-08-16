@@ -1,4 +1,4 @@
-### Updated time: 02:29:33 10 Aug, 2015.
+### Updated time: 02:03:33 17 Aug, 2015.
 
  1. #### Definitions  
  All definitions used in this .md file are restricted to this translation project and are defined to help to clarify concepts or entities we're going to talk about in the following writing.
@@ -11,13 +11,14 @@
  3. #### Contents
   * A soft break is used between a translated paragraph and its' corresponding original text paragraph.
   * A hard break is used between a original & translated block and another.
-  * 3 blank lines are used to separate two different blocks in .md files, although it makes no difference in Gitbook's representation page whether one or two or three blank lines are used to distinguish different blocks.
+  * A blank line is used to separate two different blocks in .md files.
+  * Original English contents are wrapped under the quote syntax. Whatever mark is used here on all English contents we possibly leave an easy for further extraction of all the Chinese contents to form a pdf book.
  4. #### Displayed titles in Gitbook
   * The Chinese translation is used to display a chapter/section's title.
   * While displayed in the previous way, the English title of the corresponding chapter/section is instead used in the source file(the markdown file)'s name.
   * With all displayed titles initialized to English version in the source files, they can simply be changed into Chinese ones in the root SUMMARY.md file without breaking the existing relative link to the origin files in the source directory. All you need is just rerun the 'gitbook init' command line.
 
-### 2015年8月10日 02:29:33更新
+### 2015年8月17日 02:03:33更新
 
  1. #### 定义
  本.md文件所用的所有定义作用范围均为本翻译项目，目的在于更明确地澄清接下来写作过程中出现的一些概念和实体的定义。  
@@ -32,7 +33,8 @@
  3. #### 内容  
   * 译文段落与原文段落使用软换行方式分隔。
   * 区块之间使用硬换行方式分隔。
-  * 在.md源文件中，区块之间采用3个空行来分隔。尽管就Gitbook页面上的显示效果而言，使用多少个空行并没有影响，但3个空行使源文件中区块之间分隔比较明显。
+  * 在.md源文件中，区块之间采用1个空行来分隔。
+  * 英文原文包裹在引用语法下。主要只是一个标记，为以后抽取出全部中文的场景留下方案。
 
  4. #### Gitbook目录展示的标题  
   * 章/节目录的标题使用中文，由原文标题翻译过来。
