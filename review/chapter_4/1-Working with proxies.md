@@ -14,7 +14,7 @@ Java的反射API包含了对动态代理创建的支持：`java.lang.reflect.Pro
 
  > We say approximating because Java does not support reflective facilities for interceding on method calls. Therefore, we must use proxies as an approximation. Referring to figure 4.1, we see that proxies also allow the ability to pre- and post- process method calls. Let’s examine the benefits achieved from doing this.
  
-我们称其为“近似实现”，是因为Java反射本身并不支持直接打断并接管方法调用的特性。这样要实现这个特性，我们就必须使用代理来模拟这个过程。回顾图4-1，我们可以看到代理能够在方法调用之前和之后做一些处理。接下来，我们来检验一下使用代理有什么好处。
+我们称其为“近似实现”，是因为Java反射本身并不支持直接打断并接管方法调用。这样，要实现这个特性，我们就必须使用代理来模拟这个打断过程。回顾图4-1，我们可以看到代理能够在方法调用之前和之后做一些处理。接下来，我们来检验一下使用代理有什么好处。
 
 >  Programmers commonly discuss properties of classes. For example, a class that records its method calls is often referred to as a tracing class. A class that ensures that a failed operation does not leave an object in an intermediate state is often referred to as an atomic class.  
 
