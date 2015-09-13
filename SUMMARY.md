@@ -21,7 +21,6 @@
         * [Exposing some surprises](review/chapter_1/8.2-Exposing some surprises.md)
         * [Another reflective circularity](review/chapter_1/8.3-Another reflective circularity.md)
     * [Summary](review/chapter_1/9-Summary.md)
-
 * [Accessing fields reflectively](review/chapter_2/0-Accessing fields reflectively.md)
     * [Serializing objects](review/chapter_2/1-Serializing objects.md)
         * [Serializing to XML](review/chapter_2/1.1-Serializing to XML.md)
@@ -39,7 +38,6 @@
     * [Serialization, putting it all together](review/chapter_2/8-Serialiaztion, putting it all together.md)
     * [Using reflective serialization](review/chapter_2/9-Using reflective serialization.md)
     * [Summary](review/chapter_2/10-Summary.md)
-
 * [Dynamic loading and reflective construction](review/chapter_3/0-Dynamic loading and reflective construction.md)
     * [George's deployment problem](review/chapter_3/1-George's deployment problem.md)
         * [Designing with patterns](review/chapter_3/1.1-Designing with patterns.md)
@@ -68,7 +66,6 @@
         * [No handling of illegal XML characters](review/chapter_3/6.4-No handling of illegal XML characters.md)
         * [Performance](review/chapter_3/6.5-Performance.md)
     * [Summary](review/chapter_3/7-Summary.md)
-
 * [使用Java的动态代理](review/chapter_4/0-Using Java's dynamic proxy.md)
     * [使用代理](review/chapter_4/1-Working with proxies.md)
     * [George's tracing problem](review/chapter_4/2-George's tracing problem.md)
@@ -88,7 +85,6 @@
     * [Generating SOAP remote proxies](review/chapter_4/8-Generating SOAP remote proxies.md)
     * [Pitfalls of using Proxy](review/chapter_4/9-Pitfalls of using Proxy.md)
     * [Summary](review/chapter_4/10-Summary.md)
-
 * [Call stack introspection](review/chapter_5/0-Call stack introspection.md)
     * [George's logging problem](review/chapter_5/5.1-George's logging problem.md)
     * [Performing all stack introspection](review/chapter_5/5.2-Performing call stack introspection.md)
@@ -96,7 +92,6 @@
     * [Pitfalls](review/chapter_5/5.4-Pitfalls.md)
     * [Class invariant checking](review/chapter_5/5.5-Class invariant checking.md)
     * [Summary](review/chapter_5/5.6-Summary.md)
-
 * [Using the class loader](review/chapter_6/0-Using the class loader.md)
     * [George's test problem](review/chapter_6/1-George's test problem.md)
     * [Essentials of ClassLoader](review/chapter_6/2-Essentials of ClassLoader.md)
@@ -116,7 +111,6 @@
         * [Additional examples](review/chapter_6/5.5-Additional examples.md)
         * [Endorsed Standards Override](review/chapter_6/5.6-Endorsed Standards Override.md)
     * [Summary](review/chapter_6/6-Summary.md)
-
 * [Reflective code generation](review/chapter_7/0-Reflective code generation.md)
     * [Reflective code generation](review/chapter_7/1-Reflective code generation.md)
     * [Generating HelloWorld.java](review/chapter_7/2-Generating HelloWorld.java.md)
@@ -131,7 +125,6 @@
     * [Using the framework](review/chapter_7/7-Using the framework.md)
     * [Relation to Aspect-Oriented Programming](review/chapter_7/8-Relation to Aspect-Oriented Programming.md)
     * [Summary](review/chapter_7/9-Summary.md)
-
 * [Design patterns](review/chapter_8/0-Design patterns.md)
     * [Singleton](review/chapter_8/1-Singleton.md)
     * [Decorator class-to-class transformations](review/chapter_8/2-Decorator class-to-class transformations.md)
@@ -139,7 +132,6 @@
     * [Another composition feature](review/chapter_8/4-Another composition feature.md)
     * [Problematic issues in writing class-to-class transformations](review/chapter_8/5-Problematic issues in writing class-to-class transformations.md)
     * [Summary](review/chapter_8/6-Summary.md)
-
 * [Evaluating performance](review/chapter_9/0-Evaluating performance.md)
     * [Evaluating performance](review/chapter_9/1-Evaluating performance.md)
     * [Categorizing performance impact](review/chapter_9/2-Categorizing performance impact.md)
@@ -148,7 +140,6 @@
     * [Understanding Amdahl's law](review/chapter_9/5-Understanding Amdahl's Law.md)
     * [Applying Amdahl's law](review/chapter_9/6-Applying Amdahl's law.md)
     * [Summary](review/chapter_9/7-Summary.md)
-
 * [Reflection on the future](review/chapter_10/0-Reflection on the future.md)
     * [Looking forward: Java 1.5](review/chapter_10/1-Looking forward: Java 1.5.md)
         * [JSR 14-Generics](review/chapter_10/1.1-JSR 14-Generics.md)
