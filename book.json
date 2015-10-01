@@ -1,6 +1,5 @@
 {
 	"gitbook": "2.1.0",
 	"title": "Java Reflection in Action-Java反射实战",
-	"description": "A handbook of how to use Java reflection.",
-    "plugins": ["mathjax"]
+	"description": "A handbook of how to use Java reflection."
 }
