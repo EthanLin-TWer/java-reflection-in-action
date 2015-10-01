@@ -14,7 +14,7 @@ George刚刚接到一个任务，要他为自己维护的几个类创建其可�
 
 > While tracing is a useful feature, it is also very I/O intensive. Therefore, classes should be able to turn tracing on and off. However, including tracing code and guards to turn it on and off in each class bloats the classes and makes them slower because of the execution of the if statements. Due to these constraints, George decides to make tracing and nontracing versions of his classes.
 
-尽管追踪是很有用的功能，但它同时也是I/O密集型的操作。因此类应该可以选择打开或关闭追踪。但是，如果使用大量的条件语句来选择打开或关闭追踪则使得代码变得臃肿，而且也会使它们运行得更慢，因为大量if语句的执行。也因为这些限制，George决定为他的类分别编写带追踪和不带追踪的版本。
+尽管追踪功能很有用，但同时，它对I/O也很敏感。因此，类应该可以轻松地打开或关闭追踪功能。但是，若选择使用大量的条件语句来实现开闭的判断，可想而知这些开关将撒得满地都是。此外大量if语句的执行也会使程序的运行速度变慢。由于存在这些限制，George决定为他的类分别编写带追踪和不带追踪的版本。
 
 > One option George considers is subclassing each nontraced class and overriding each method with traces and super calls. He can then set up a process for either instantiating the traced or nontraced version depending upon some command-line argument. George quickly realizes that this option has the following shortcomings:
 
