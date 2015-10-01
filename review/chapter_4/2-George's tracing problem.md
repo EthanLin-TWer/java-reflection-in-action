@@ -6,11 +6,11 @@ George刚刚接到一个任务，要他为自己维护的几个类创建其可�
 
 > Consider the following scenario. A customer calls WCI technical support with a defect report. Tech support asks the customer to turn tracing on in their software and follow the steps to reproduce the defect. Because tracing is turned on, the customer can then send WCI a file containing the path through the WCI source code.
 
-考虑这样一个场景。一位客户发现了一个缺陷，他打通了WCI技术支持的电话。技术支持让这位客户打开软件的追踪功能，并按照要求的步骤来重现缺陷。因为打开了追踪，这样客户就可以给WCI发送一份包含了源代码执行路径的出错报告。
+考虑这样一个场景。有一位客户发现了软件的一个重大缺陷，于是他打电话向WCI公司的技术部门反映。技术支持让这位客户打开软件的追踪功能，按照步骤来重现这个缺陷。因为打开了追踪特性，这样客户就可以给WCI发送一份包含了源代码执行路径的出错报告。
 
 > This information solves many problems for the WCI technical team. It tells them a great deal about the state of the program during the failure. It also may prevent them from having to replicate their customer’s environment and data.
 
-这些信息为WCI的技术团队省却了不少麻烦。它让技术支持清楚地了解程序出错期间的状态，并使他们免去再现客户环境和客户数据的麻烦。
+这些信息为WCI的技术团队省却了不少麻烦。它让维护人员清楚地了解到，程序出错时的状态是怎样的。同时，也免去了他们去重现客户环境和数据的麻烦。
 
 > While tracing is a useful feature, it is also very I/O intensive. Therefore, classes should be able to turn tracing on and off. However, including tracing code and guards to turn it on and off in each class bloats the classes and makes them slower because of the execution of the if statements. Due to these constraints, George decides to make tracing and nontracing versions of his classes.
 
