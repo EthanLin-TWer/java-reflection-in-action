@@ -2,7 +2,7 @@
 
 > George has been assigned the task of creating tracing versions of several of the classes that he maintains. In a tracing class, each method records information about its entry and, after method execution, records information about its return. George’s employer, WCI, wants tracing available for their classes because tracing helps with problem determination in deployed software.
 
-眼下George有一个任务，他需要为他自己维护的一些类创建它们对应的可追踪版本。在一个追踪类中，它的每个方法都会记录一些信息，包括方法进入时的信息、方法执行完成后的返回信息等。因为追踪功能对诊断软件发布后产生的问题很有帮助，因此George的雇主，WCI，希望能够为他们的类开发追踪特性。
+George刚刚接到一个任务，要他为自己维护的几个类创建其可追踪版本。可追踪类中的每个方法都需要记录一些信息，包括进入方法前的信息、方法执行完毕后的返回信息等。George的雇主WCI希望这些类也具备追踪功能，因为这对软件发布后的问题诊断很有帮助。
 
 > Consider the following scenario. A customer calls WCI technical support with a defect report. Tech support asks the customer to turn tracing on in their software and follow the steps to reproduce the defect. Because tracing is turned on, the customer can then send WCI a file containing the path through the WCI source code.
 
