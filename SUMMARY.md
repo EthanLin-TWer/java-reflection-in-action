@@ -69,7 +69,7 @@
 * [使用Java的动态代理](review/chapter_4/0-Using Java's dynamic proxy.md)
     * [使用代理](review/chapter_4/1-Working with proxies.md)
     * [George的追踪难题](review/chapter_4/2-George's tracing problem.md)
-    * [Exploring Proxy](review/chapter_4/3-Exploring Proxy.md)
+    * [了解Proxy类](review/chapter_4/3-Exploring Proxy.md)
         * [Understanding invocation handlers](review/chapter_4/3.1-Understanding invocation handlers.md)
         * [Handling the methods of Object](review/chapter_4/3.2-Handling the methods of Object.md)
     * [Implementing a tracing proxy](review/chapter_4/4-Implementing a tracing proxy.md)
